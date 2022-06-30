@@ -1,0 +1,52 @@
+body {
+    background: #fff;
+    font-family: 'lato';
+
+  }
+  
+ /* .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    font-family: 'lato';
+  }
+  .container > form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background: clear;
+    font-family: 'lato';
+    line-height: 20px;
+    align-self: flex-start;
+  }*/
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+  }
+  
+  .button {
+    background-color: black;
+    padding: 20px 40px;
+    color: #fff;
+    border: none;
+  }
+  .p {
+    color: red;
+  }
